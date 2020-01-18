@@ -1,0 +1,24 @@
+.like-comment,.dislike-comment  {
+	display: inline-block;
+}
+/*.likedislikecomment {float: right;}*/
+.like-comment {
+    background-position: 0 0;
+    position: relative;
+    top: 2px;
+}
+.like-comment, .dislike-comment {
+    background-image: url("/Like-dislike-ajax-php/images/likedislike.png");
+    width: 23px;
+    height: 18px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.dislike-comment {
+    background-position: -20px 0;
+    position: relative;
+    top: 7px;
+}
+.count-like {color: #368800;}
+.count-dislike {color:  #f81f1f;}
